@@ -1,0 +1,27 @@
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+button,
+input,
+.my-style {
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.my-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
